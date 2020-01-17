@@ -1,0 +1,12 @@
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Quiz.exe.config
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Quiz.exe
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Quiz.pdb
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.csprojAssemblyReference.cache
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.exe
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.pdb
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.Resource1.resources
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.cache
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Newtonsoft.Json.dll
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Newtonsoft.Json.xml
+D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.csproj.CopyComplete
