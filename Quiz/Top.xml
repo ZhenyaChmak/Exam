@@ -132,4 +132,9 @@
     <Rating>7</Rating>
     <NumberOfResponses>10</NumberOfResponses>
   </Users>
+  <Users>
+    <Name>ghbd</Name>
+    <Rating>-11</Rating>
+    <NumberOfResponses>1</NumberOfResponses>
+  </Users>
 </ArrayOfUsers>

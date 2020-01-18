@@ -60,12 +60,15 @@ namespace Quiz
                 {
                     users = (List<Users>)formatter.Deserialize(fs);
                     bool count = true;
-                    foreach (Users i in users)
+                    int con = 0;
+                    foreach (Users i in users.OrderBy(c=>c.Rating))
                     {
+                        con++;
                         if (i.Name == Name)
                         {
+                          //  var index = users.FindIndex(c => c == i) + 1;
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"Name:{i.Name}\t Rating:{i.Rating}\t NumberOfResponses:{i.NumberOfResponses}");
+                            Console.WriteLine($"Position:{con}\t Name:{i.Name}\t Rating:{i.Rating}\t NumberOfResponses:{i.NumberOfResponses}");
                             count = false;
                             Console.ForegroundColor = ConsoleColor.Gray;
                         }

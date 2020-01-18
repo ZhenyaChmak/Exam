@@ -10,3 +10,15 @@ D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResourc
 D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Newtonsoft.Json.dll
 D:\УЧЕБА\Домашка\С#\Quiz\Quiz\bin\Debug\Newtonsoft.Json.xml
 D:\УЧЕБА\Домашка\С#\Quiz\Quiz\obj\Debug\Quiz.csproj.CopyComplete
+D:\123\Quiz\Quiz\bin\Debug\Quiz.exe.config
+D:\123\Quiz\Quiz\bin\Debug\Quiz.exe
+D:\123\Quiz\Quiz\bin\Debug\Quiz.pdb
+D:\123\Quiz\Quiz\bin\Debug\Newtonsoft.Json.dll
+D:\123\Quiz\Quiz\bin\Debug\Newtonsoft.Json.xml
+D:\123\Quiz\Quiz\obj\Debug\Quiz.csprojAssemblyReference.cache
+D:\123\Quiz\Quiz\obj\Debug\Quiz.Resource1.resources
+D:\123\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.cache
+D:\123\Quiz\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
+D:\123\Quiz\Quiz\obj\Debug\Quiz.csproj.CopyComplete
+D:\123\Quiz\Quiz\obj\Debug\Quiz.exe
+D:\123\Quiz\Quiz\obj\Debug\Quiz.pdb
