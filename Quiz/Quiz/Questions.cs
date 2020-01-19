@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Quiz
 {
@@ -17,15 +18,10 @@ namespace Quiz
         public string Answer;
 
         public Questions() { }
-      /*  public Questions(int Id, string Question, string Answer)
-        {
-            this.Id = Id;
-            this.Question = Question;
-            this.Answer = Answer;
-        }*/
 
         Random rnd = new Random();
         string WayQuestions = ConfigurationManager.AppSettings["WayQuestions"];
+        string WayTop = ConfigurationManager.AppSettings["WayTop"];
 
         public void Test(string name)
         {
@@ -38,11 +34,8 @@ namespace Quiz
             int size = q.Count;
             int voproc = 1;
 
-           // int a = 10;
-           // while(a>0)
             while (size>0)
             {
-           //     a--;
                 size--;
                 int r = rnd.Next(size + 1);
                 var temp = q[r];
@@ -84,14 +77,30 @@ namespace Quiz
             Top top = new Top();
             top.Create(Name, Rating, NumberOfResponses);
 
-            result(NumberOfResponses, Rating);
+            result(NumberOfResponses, Rating, Name);
         }
 
-        void result(int NumberOfResponses, int Rating)
+        void result(int NumberOfResponses, int Rating, string Name)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nКоличество правильно отвеченных вопросов: {0} \nТекущий рейтинг: {1} \nПозиция в рейтинге: ", NumberOfResponses, Rating);
-            Console.ForegroundColor = ConsoleColor.Gray;
+            XDocument xdoc = XDocument.Load(WayTop);
+            IEnumerable<XElement> tracks = from t in xdoc.Root.Elements("Users")
+                                           let time = int.Parse(t.Element("Rating").Value)
+                                           orderby time descending
+                                           select t;
+            int position = 1;
+
+            foreach (XElement a in tracks)
+            {
+                if (a.Element("Name").Value == Name & a.Element("Rating").Value==Rating.ToString() & a.Element("NumberOfResponses").Value == NumberOfResponses.ToString())
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Position:{position}\t Name:{a.Element("Name").Value}\t Rating:{a.Element("Rating").Value}\t " +
+                        $"NumberOfResponses:{a.Element("NumberOfResponses").Value}");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    break;
+                }
+                position++;
+            }
         }
     }
 }

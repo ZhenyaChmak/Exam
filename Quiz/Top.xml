@@ -2,73 +2,61 @@
 <ArrayOfUsers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Users>
     <Name>13</Name>
-    <Position>100</Position>
     <Rating>-10</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>ц3к</Name>
-    <Position>100</Position>
     <Rating>-6</Rating>
     <NumberOfResponses>2</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>-20</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>2135</Name>
-    <Position>100</Position>
     <Rating>0</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>4</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>2123</Name>
-    <Position>100</Position>
     <Rating>8</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>5</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>12</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>2</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>0</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
     <Name>123</Name>
-    <Position>100</Position>
     <Rating>3</Rating>
     <NumberOfResponses>8</NumberOfResponses>
   </Users>
   <Users>
     <Name>343</Name>
-    <Position>100</Position>
     <Rating>11</Rating>
     <NumberOfResponses>12</NumberOfResponses>
   </Users>
@@ -123,18 +111,28 @@
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
-    <Name>расм</Name>
+    <Name>123</Name>
+    <Rating>-3</Rating>
+    <NumberOfResponses>5</NumberOfResponses>
+  </Users>
+  <Users>
+    <Name>4кеа</Name>
     <Rating>-13</Rating>
     <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
-    <Name>жаю</Name>
-    <Rating>7</Rating>
-    <NumberOfResponses>10</NumberOfResponses>
+    <Name>вр</Name>
+    <Rating>-13</Rating>
+    <NumberOfResponses>0</NumberOfResponses>
   </Users>
   <Users>
-    <Name>ghbd</Name>
-    <Rating>-11</Rating>
-    <NumberOfResponses>1</NumberOfResponses>
+    <Name>вр</Name>
+    <Rating>-7</Rating>
+    <NumberOfResponses>3</NumberOfResponses>
+  </Users>
+  <Users>
+    <Name>вр</Name>
+    <Rating>-7</Rating>
+    <NumberOfResponses>3</NumberOfResponses>
   </Users>
 </ArrayOfUsers>

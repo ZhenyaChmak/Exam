@@ -15,17 +15,9 @@ namespace Quiz
     {
         static void Main(string[] args)
         {
-                Console.WriteLine("\t\t*** ВИКТОРИНА ***\n");
-
+            Console.WriteLine("\t\t*** ВИКТОРИНА ***\n");
             Console.Write(Resource1.Name);
             string name = Console.ReadLine();
-            /*Console.WriteLine("\n*********************************");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"\t\t\tName: {name}");
-            Console.WriteLine("\t***MENU***");
-            Console.WriteLine("  1.Start \n  2.Past results \n  3.Top 20 \n  4.Exit");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("**********************************");*/
             Menu menu = new Menu();
             menu.PrintMenu(name);
 

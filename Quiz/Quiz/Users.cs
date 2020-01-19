@@ -8,7 +8,6 @@ namespace Quiz
 {
     public class Users
     {
-        //public int Position { get; set; }
         public string Name { get; set;}
         public int Rating { get; set; }
         public int NumberOfResponses { get; set; }
@@ -21,7 +20,6 @@ namespace Quiz
 
           public Users(int Position, string Name, int Rating, int NumberOfResponses)
           {
-           // this.Position = Position;
             this.Name = Name;
             this.Rating = Rating;
             this.NumberOfResponses = NumberOfResponses;  
